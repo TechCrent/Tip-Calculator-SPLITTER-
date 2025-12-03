@@ -1,10 +1,20 @@
-@import 'tailwindcss';
+@import "tailwindcss";
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Science+Gothic:wght@100..900&display=swap");
 
-@theme{
-  
+@theme {
+  --font-roboto: "Roboto", sans-serif;
+  --font-science: "Science Gothic, sans-serif";
+
+  --color-bx1-title: #5c767a;
+  --color-bx1-button: #00474b;
 }
 
-@layer utilities{
-  .tracking-ultra {letter-spacing: 0.3em;}
-  .tracking-mega {letter-spacing: 0.5em}
+@layer utilities {
+  .tracking-ultra {
+    letter-spacing: 0.3em;
+  }
+  .tracking-mega {
+    letter-spacing: 0.5em;
+  }
 }

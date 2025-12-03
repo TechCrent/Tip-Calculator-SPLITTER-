@@ -8,23 +8,25 @@
     <title>splitter</title>
   </head>
   <body class="bg-[#c5e4e7]">
-    <div class="flex flex-col justify-center items-center p-5 md:pt-30">
+    <div
+      class="flex flex-col justify-center items-center p-5 py-15 md:pb-10 md:pt-5"
+    >
       <p class="text-[#3e6666] text-2xl font-bold tracking-mega">SPLI</p>
       <p class="text-[#3e6666] text-2xl font-bold tracking-mega">TTER</p>
     </div>
     <!-- MAIN SECTION -->
     <main
-      class="bg-white p-8 pt-3 flex flex-col md:flex-row md:mx-10 justify-center rounded-t-3xl"
+      class="bg-white p-8 pt-3 md:mb-0 md:ml-50 md:pt-8 flex flex-col md:flex-row md:mx-10 md:rounded-3xl rounded-t-3xl md:gap-10 md:max-h-[450px] md:max-w-[900px] md:items-center md:justify-center"
     >
       <!-- LEFT SECTION -->
-      <section class="p-5 px-0 md:w-1/2">
+      <section class="p-5 md:w-1/2">
         <div class="pb-8">
           <h1 class="font-mono text-bx1-title">Bill</h1>
           <div
             class="flex justify-between rounded bg-[#f3f7fa] p-2 px-3 items-center"
           >
             <!-- Symbol -->
-            <span class="text-xl text-[#c5e4e7] font-semibold">$</span>
+            <span class="text-xl text-[#82b5b9] font-semibold">$</span>
             <!-- Num -->
             <span class="text-3xl text-bx1-button font-semibold">142.55</span>
           </div>
@@ -80,14 +82,30 @@
           <div
             class="flex justify-between items-center bg-[#f3f7fa] p-2 px-3 rounded"
           >
-            <span>X</span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="lucide lucide-user-icon lucide-user text-[#82b5b9]"
+            >
+              <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+              <circle cx="12" cy="7" r="4" />
+            </svg>
             <span class="font-bold text-2xl text-bx1-button">5</span>
           </div>
         </div>
       </section>
 
       <!-- RIGHT SECTION -->
-      <section class="bg-bx1-button text-white md:w-1/2 rounded-3xl">
+      <section
+        class="bg-bx1-button text-white md:w-1/2 rounded-3xl md:h-[380px]"
+      >
         <div class="flex justify-between items-center p-5 pt-10">
           <div>
             <p class="font-semibold">Tip Amount</p>
@@ -108,7 +126,7 @@
         </div>
         <div class="flex justify-center items-center p-5">
           <button
-            class="bg-[#25c0ac] w-full py-2 font-semibold text-bx1-button rounded"
+            class="bg-[#25c0ac] md:mt-30 w-full py-2 font-semibold text-bx1-button rounded"
           >
             RESET
           </button>

@@ -1,1 +1,6 @@
 @import 'tailwindcss';
+
+@layer utilities{
+  .tracking-ultra {letter-spacing: 0.3em;}
+  .tracking-mega {letter-spacing: 0.5em}
+}

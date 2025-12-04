@@ -1,13 +1,16 @@
+@import "tailwindcss";
 @font-face {
-  font-family: Doto;
-  src: url("../src/assets/font/Doto-Regular.ttf");
+  font-family: S-mono;
+  src: url("../src/assets/font/SpaceMono-Regular.ttf");
+}
+@font-face {
+  font-family: S-mono-bold;
+  src: url("../src/assets/font/SpaceMono-Bold.ttf");
 }
 
-@import "tailwindcss";
-
 @theme {
-  --font-roboto: "Roboto", sans-serif;
-  --font-science: "Science Gothic, sans-serif";
+  --font-space-mono: S-mono, "sans-serif";
+  --font-space-mono-bold: S-mono-bold, "sans-serif";
 
   --color-bx1-title: #5c767a;
   --color-bx1-button: #00474b;
